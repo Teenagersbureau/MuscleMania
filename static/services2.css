@@ -1,0 +1,66 @@
+@media only screen and (max-width:980px) 
+{
+    .features {
+        flex-direction: column;
+    }
+    .featureimg {
+        margin: 30px auto;
+    }
+    p {
+        display: block;
+        width: 94vw;
+        text-align: justify;
+    }
+    .mapinfo {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        background-color: rebeccapurple;
+        align-items: center;
+        text-align: justify;
+    }
+    h2{
+        font-size: 2.1rem;
+    }
+    .featureimg {
+        width: 300px;
+        height: 250px;
+    }
+    p {
+        width: 95vw;
+    }
+}
+/* @media only screen and (max-width:800px)
+{
+    
+} */
+@media only screen and (max-width:435px)
+{
+    #maps {
+        height: 55vh;
+        width: 90vw;
+    }
+}
+@media screen and (max-width:407px)
+{
+    .featureimg {
+        width: 230px;
+        height: 170px;
+    }
+    p{
+        width: 85vw;
+    }
+    #maps {
+        height: 40vh;
+        width: 90vw;
+    }
+}
+@media screen and (max-width:320px)
+{    
+    .featureimg 
+    {
+        width: 210px;
+        height: 172px;
+        padding: 5px 5px;
+    }
+}

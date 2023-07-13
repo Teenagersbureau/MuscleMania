@@ -1,0 +1,19 @@
+extends base.pug
+block title 
+    title 
+     | Muscle Mania - One Stop for Fitness
+block style 
+    style 
+        include ../static/base.css
+        include ../static/base2.css
+block scripts 
+    script(src="../static/homescript.js") 
+block content
+    section#welcomesection 
+        p#demo
+        div#motivator.hidden  
+            span#textone  |
+                span.color ARE YOU READY TO
+            span#texttwo  GET FIT, STRONG
+            span#textthree & MOTIVATED 
+         

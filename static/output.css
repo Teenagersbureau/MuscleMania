@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital@1&display=swap');
+.heading{
+min-width: 100%;
+display: flex;
+margin:auto auto auto auto;
+justify-content: center;
+flex-wrap: wrap;
+text-align: center;
+align-items: center;
+font-size: 30px;
+flex-direction: column;
+font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.heading h2{
+    margin:100px;
+    font-family: 'Kanit', sans-serif;
+}
+.heading>span{
+    font-size: 80px;
+}
+body {
+    
+    animation: fadeInAnimation ease 2s;
+    animation-iteration-count:1;
+    animation-fill-mode:forwards;
+}
+html{
+    animation:coloranimation ease-in 10s;
+    animation-iteration-count:infinite;
+    animation-fill-mode:forwards;
+    transition-timing-function: cubic-bezier(0.1, 0.7, 1.0, 0.1);
+}
+@keyframes coloranimation{
+    0%{
+        background-color: gold;
+    }
+    25%{
+        background-color: red;
+    }
+    50%{
+        background-color: yellow;
+    }
+    75%{
+        background-color: fuchsia;
+    }
+    100%
+    {
+        background-color: chocolate;
+    }
+}
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+        
+     }
+}

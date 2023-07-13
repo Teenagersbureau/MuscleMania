@@ -1,0 +1,28 @@
+doctype html
+html
+  head      
+    block title
+    block style
+  meta(name="viewport", content="width=device-width, initial-scale=1.0")
+  link(rel="stylesheet", href="https://fonts.googleapis.com/icon?family=Material+Icons")
+  body
+    -var clas = ['navbar', 'h-nav','background']
+    nav(class=clas)
+      div#logo  
+          img(src="../static/gymlogo.webp")
+      - var classes = ['nav-list','v-class']   
+        div(class=classes)
+          ul
+            li #[a(href="/") Home]
+            li #[a(href="/services") Services]
+            li #[a(href="/trainers") Trainers]
+            li #[a(href="/contact") Contact Us]
+      div.burger
+          div.line#one
+          div.line#two
+          div.line#three
+    block content
+    //- footer#footer
+    //-     | Copyright &copy; 2021 Muscle Mania | All Rights Reserved &#8902;
+    script(src="../static/burger.js")
+    block scripts 

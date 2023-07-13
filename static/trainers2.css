@@ -1,0 +1,42 @@
+@media only screen and (max-width: 1180px) 
+{
+    .personimg{
+        height: 22vh;
+        width: 17vw;
+    }
+}
+@media only screen and (max-width: 981px)
+{
+    .container {
+        flex-direction: column;
+        height: 240vh;
+    }
+    .people {
+        flex-direction: column;
+    }
+    .personimg {
+        height: 27vh;
+        width: 27vw;
+    }
+}
+@media only screen and (max-width: 720px)
+{
+    .personimg {
+        height: 27vh;
+        width: 30vw;
+    }
+}
+@media only screen and (max-width: 533px)
+{
+    .personimg {
+        height: 23vh;
+        width: 45vw;
+    }
+}
+@media only screen and (max-width: 374px)
+{
+    .personimg {
+        height: 25vh;
+        width: 50vw;
+    }
+}

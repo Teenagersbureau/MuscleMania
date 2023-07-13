@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+.features{
+    display: flex;
+    flex-direction: row;
+    justify-self: center;
+    align-items: center;
+}
+.desc{
+    display: flex;
+    flex-direction: row;
+    width:70%;
+}
+.featureimg {
+    display: inline-block;
+    width: 17vw;
+    height: 37vh;
+    margin: 7px 7px;
+    border-radius: 7px;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(255,110,110);
+}
+.paradesc{
+    margin:20px 20px;
+}
+.mapinfo{
+    display: flex;
+    flex-direction: row;
+    background-color: rebeccapurple;
+}
+.mapheading{
+    font-size: 1.5rem;
+    text-align: center;
+}
+.mapdiv{
+    width: 40%;
+}
+h2{
+    color: rgb(255, 255, 255);
+    font-size: 2.4rem;
+    font-weight: bolder;
+    padding: 5px auto 5px auto;
+    margin-top: 50px;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+}
+p {
+    padding: 10px 15px;
+    text-align: justify;
+    font-size: 1.0rem;
+    font-family: 'Raleway', sans-serif;
+}
+#maps{
+    width: 85vw;
+    margin:20px;
+    border-radius: 10px;
+}

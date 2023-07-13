@@ -1,0 +1,47 @@
+
+@media only screen and (max-width:1000px)
+{
+    #demo{
+        left:150px;
+    }
+}
+@media only screen and (max-width:805px)
+{
+    .color{
+        left: 120px;
+    }
+    #texttwo{
+        left: 136px;
+    }
+    #textthree{
+        left: 136px;
+    }
+}
+@media only screen and (max-width:530px)
+{
+    #demo{
+        font-size: 35px;
+        top:187px;
+        left:50px;
+    }
+    #texttwo{
+        font-size: 25px;
+        left:50px;
+        top:333px;
+    }
+    #textthree{
+        font-size: 25px;
+        left: 50px;
+        top:371px;  
+    }
+    .color{
+        left:40px;
+        top:290px;
+    }
+}
+@media only screen and (max-width:333px)
+{
+    #demo{
+        font-size: 29px;
+    }
+}

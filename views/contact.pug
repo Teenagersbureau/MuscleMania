@@ -1,0 +1,49 @@
+extends base.pug
+block title 
+    title 
+     | Get In Touch With Us
+block style 
+    style 
+        include ../static/base.css
+        include ../static/contact.css
+        include ../static/contact2.css
+block content
+    h1 Start Your Fitness Journey With Us Now!
+    form#userform(action='/contact' method='post')
+        input.userinput(type='text' maxlength="50" placeholder='Enter your name' name='name' required='true')
+        label(for="age" )  
+        select#age.userinput(name="age")
+            option(value="" disabled selected hidden required) Choose your age-group
+            option(value='18-25') 18-25
+            option(value='25-35') 25-35
+            option(value='35-45') 35-45
+            option(value='45-50') 45-50
+            option(value='50+') 50+
+        input.userinput(type='text' maxlength="10"  placeholder='Enter your number ' name='phone' required='true')
+        input.userinput(type='email' maxlength="50" name='email' placeholder='Enter your email')
+        textarea.userinput(name='query' maxlength="700" cols='30' rows='10' placeholder='Any Query? Type in here and we will be more than happy to help you!')
+        div.check
+            input.agree(
+            type='checkbox'
+            name='termscheck'
+            required
+            )
+            | &nbsp; I have read all the &nbsp; #[a(href="#") Terms And Conditions] &nbsp; and Agree To Them
+        button#btn(type="submit")
+            | SUBMIT 
+    div.contactsocial
+        div.font
+            span.material-icons phone 
+            | +91 1234567890
+        div.font
+            span.material-icons alternate_email
+            | musclefreak@email.com
+        div.font
+            span.material-icons whatsapp
+            | +91 1234567890
+        div.font
+            span.material-icons business
+            |  New Delhi, Delhi - 110001
+            
+
+        
